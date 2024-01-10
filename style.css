@@ -1,0 +1,59 @@
+/* home page */
+.slider {
+    padding: 0 !important;
+}
+
+.new_in {
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    padding: 15px;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
+.bloc {
+    margin: 50px 0;
+}
+
+.footer {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.footer_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+div#accordion div div {
+    /* background: #fff; */
+    border: 0;
+}
+
+.card-header h5.shop_filter button {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.card-body ul.footer_list li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#gallerie a img {
+    margin-bottom: 5px;
+}
+
+#nav-tabContent {
+    padding: 30px;
+}
+
+#var-value {
+    padding: 8px 10px;
+    border: solid 1px #dedede;
+}

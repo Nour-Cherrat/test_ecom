@@ -1,0 +1,11 @@
+CREATE TABLE orders (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    firstname VARCHAR(100) NOT NULL,
+    lastname VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status ENUM('En cours', 'Shipped', 'Terminee') DEFAULT 'En cours',
+    phone INT(10) NOT NULL
+);
